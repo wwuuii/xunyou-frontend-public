@@ -1,0 +1,27 @@
+{
+  "name": "xunyou-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "production": "vite -m production",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "vant": "^3.6.11",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "babel-plugin-import": "^1.13.6",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-style-import": "^1.4.1",
+    "vue-tsc": "^1.4.2"
+  }
+}
